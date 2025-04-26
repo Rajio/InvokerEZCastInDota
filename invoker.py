@@ -1,0 +1,48 @@
+import keyboard
+import pyautogui
+import time
+
+def on_key_event():
+    #pyautogui.press('2')
+    pyautogui.press('e')
+    pyautogui.press('e')
+    pyautogui.press('e')
+    pyautogui.press('r')
+    pyautogui.press('d')
+    pyautogui.press('d')
+    pyautogui.press('e')
+    pyautogui.press('e')
+    pyautogui.press('w')
+    pyautogui.press('r')
+    pyautogui.press('d')
+    pyautogui.click()
+    #pyautogui.press('1') #This field is created for using items, instead of a number you can specify a letter for the item and be sure to remove the "#" sign to use
+    #pyautogui.press('2')
+    pyautogui.press('e')
+    pyautogui.press('e')
+    pyautogui.press('e')
+    pyautogui.press('r')
+    pyautogui.press('d')
+    pyautogui.press('d')
+    pyautogui.press('e')
+    pyautogui.press('e')
+    pyautogui.press('w')
+    pyautogui.press('r')
+    pyautogui.press('d')
+    pyautogui.click()
+    time.sleep(1)
+    pyautogui.press('q')
+    pyautogui.press('w')
+    pyautogui.press('e')
+    pyautogui.press('r')
+    pyautogui.press('d')
+    pyautogui.click()
+    pyautogui.press('q')
+    pyautogui.press('q')
+    pyautogui.press('w')
+    pyautogui.press('r')
+    pyautogui.press('d')
+
+keyboard.add_hotkey('t', on_key_event)
+
+keyboard.wait('esc')
